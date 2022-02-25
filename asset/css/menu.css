@@ -1,0 +1,64 @@
+.menu{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.menu-main{
+    height: 377px;
+    width: 700px;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+    padding: 50px 0 90px;
+}
+.menu-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #403866;
+    line-height: 1.2;
+    text-align: center;
+    width: 100%;
+    display: block;
+    padding: 0 0 51px;
+    font-weight: 700;
+}
+.menu-btn{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    color: #999;
+    padding-bottom: 25px;
+}
+.upload-btn,
+.manage-btn{
+    width: 200px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    height: 62px;
+    background-color: #827ffe;
+    border-radius: 3px;
+    transition: all .4s;
+    border: none;
+}
+.upload-btn:hover,
+.manage-btn:hover{
+    background-color: #403866;
+    cursor: pointer;
+}
